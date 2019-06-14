@@ -13,7 +13,7 @@ class AboutMeCards extends React.Component {
 
   componentDidMount() {
     const { myInfo, status,hover } = this.props;
-    // console.log(11111,status)
+  
     console.log(222,hover)
     const borderColor = {
       completed: 'green',
@@ -39,7 +39,6 @@ class AboutMeCards extends React.Component {
         {myInfo ? (
           <Card
             key={myInfo.id}
-            onClick={() => history.push(`/app/offers/${myInfo.id}`)}
           >
             {hover ? (
               <span className={`offer-card__border ${statusDiv}`}> </span>

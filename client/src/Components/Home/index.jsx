@@ -18,7 +18,6 @@ export default class  Home extends Component{
 
         <>
 
-        <h1>home</h1>
         <Container className="page__container">
           <div className="my-applications__title">
             <span>About Me</span>
@@ -40,8 +39,7 @@ export default class  Home extends Component{
             : null}
         </Container>
 
-        <UnderConstruction/>
-        </>
+          </>
     )   
     }
     

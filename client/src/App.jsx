@@ -38,7 +38,7 @@ export default class App extends Component{
             <Route exact path="/contact-me" component={ContactMe} />
             <Route component={PageNotFound} />
           </Switch>
-          <Footer />
+
       </Router>
       </>
     )
