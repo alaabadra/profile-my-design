@@ -63,9 +63,7 @@ class Header extends Component {
                     <div className="navbar__link--text">My Education</div>
                   </NavLink>
 
-                  <NavLink to="/my-exp" className="navbar__link">
-                    <div className="navbar__link--text">My Experiances</div>
-                  </NavLink>
+                 
 
                   <NavLink to="/my-skills" className="navbar__link">
                     <div className="navbar__link--text">MySkills</div>

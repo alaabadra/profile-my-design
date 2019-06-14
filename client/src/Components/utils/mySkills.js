@@ -2,73 +2,56 @@ export default [
     {
       id: 1,
       imageUrl:
-        'https://cdn5.f-cdn.com/ppic/122757424/logo/29757229/k0Dug/profile_logo_.png',
-      fullName: 'Xiaogang Smith',
-      profession: 'FullStack Web/Desktop Application Developer',
+        '',
+      nameSkill: 'web Developer',
+      language: 'nodeJS , express',
       text:
-        'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        'in GSG in code academy  development many projects and applications with team ',
     },
     {
         id: 1,
         imageUrl:
-          'https://cdn5.f-cdn.com/ppic/122757424/logo/29757229/k0Dug/profile_logo_.png',
-        fullName: 'Xiaogang Smith',
-        profession: 'FullStack Web/Desktop Application Developer',
+          '',
+          nameSkill: 'web Designer',
+        language: 'REACT , Bootstrap , php ,html ,css',
         text:
-          'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+          'many of projects by using it e.g (project freework for client from london) ',
       },
       {
         id: 1,
         imageUrl:
-          'https://cdn5.f-cdn.com/ppic/122757424/logo/29757229/k0Dug/profile_logo_.png',
-        fullName: 'Xiaogang Smith',
-        profession: 'FullStack Web/Desktop Application Developer',
+          '',
+          nameSkill: 'python',
+          language: 'AI and Data science',
         text:
-          'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+          'worked project smart home through eye tracking system',
       },
       {
         id: 1,
         imageUrl:
-          'https://cdn5.f-cdn.com/ppic/122757424/logo/29757229/k0Dug/profile_logo_.png',
-        fullName: 'Xiaogang Smith',
-        profession: 'FullStack Web/Desktop Application Developer',
+          '',
+          nameSkill: 'Andriod',
+          language: 'in webtech  ',
         text:
-          'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+          'worked many of applications',
       },
       {
         id: 1,
         imageUrl:
-          'https://cdn5.f-cdn.com/ppic/122757424/logo/29757229/k0Dug/profile_logo_.png',
-        fullName: 'Xiaogang Smith',
-        profession: 'FullStack Web/Desktop Application Developer',
+          '',
+          nameSkill: 'Electronics fields',
+          language: 'in UNRWA',
         text:
-          'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+          'worked many of electrnoics projects and connect it with computer',
       },
       {
         id: 1,
         imageUrl:
-          'https://cdn5.f-cdn.com/ppic/122757424/logo/29757229/k0Dug/profile_logo_.png',
-        fullName: 'Xiaogang Smith',
-        profession: 'FullStack Web/Desktop Application Developer',
+          '',
+          nameSkill: 'telecommunication field',
+          language: 'in ministary IT',
         text:
-          'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+          'workred in NW  and telecommunication field',
       },
-      {
-        id: 1,
-        imageUrl:
-          'https://cdn5.f-cdn.com/ppic/122757424/logo/29757229/k0Dug/profile_logo_.png',
-        fullName: 'Xiaogang Smith',
-        profession: 'FullStack Web/Desktop Application Developer',
-        text:
-          'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-      },
-      {
-        id: 1,
-        imageUrl:
-          'https://cdn5.f-cdn.com/ppic/122757424/logo/29757229/k0Dug/profile_logo_.png',
-        fullName: 'Xiaogang Smith',
-        profession: 'FullStack Web/Desktop Application Developer',
-        text:
-          'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-      },
+      
 ]

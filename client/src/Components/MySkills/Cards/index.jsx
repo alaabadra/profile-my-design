@@ -5,14 +5,14 @@ import { Link } from 'react-router-dom';
 import './style.css';
 
 const renderCard = data =>
-  data.map(({ id, imageUrl, fullName, profession, text }) => (
+  data.map(({ id, imageUrl, nameSkill, language, text }) => (
     <Link key={id} to="/" className="cards__card">
       <div className="cards__img">
-        <img width="100%" src={imageUrl} alt={`${fullName} profile img`} />
+        <img width="100%" src={imageUrl} alt={`${nameSkill} profile img`} />
       </div>
       <div>
-        <h3 className="cards__title">{fullName}</h3>
-        <h4 className="cards__sub-title">{profession}</h4>
+        <h3 className="cards__title">{nameSkill}</h3>
+        <h4 className="cards__sub-title">{language}</h4>
         <p className="cards__desc">{text}</p>
       </div>
     </Link>

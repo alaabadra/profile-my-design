@@ -5,12 +5,12 @@ import './style.css'
 export default function MySkills() {
     return(
         <>
-        <h1>skills</h1>
+
         <section className="skills__header">
             <h1 className="skills__word-my-goal">My Goal</h1>
             <h2 className="skills__text-goal">
-            Want good (fair and meaningful) work or want to offer good work? Join
-          us and find/show opportunities to connect and work together.
+            My dream is to have the experience to work remotely(freelancer), especially in the field of web development, design and work with international companies in projects, and I serve clients in forign countries with the best image expected and to benefit from my sites and to come back to work with me again.
+            And working on sites Upwork , linkedIn
             </h2>
 
         </section>
