@@ -4,11 +4,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './App.css';
 import {
+  LandingPage,
   Login,
   Signup,
   Home,
   MyEducations,
-  MyExperiances,
   MySkills,
   ContactMe,
   Header,
@@ -29,11 +29,11 @@ export default class App extends Component{
       <Router>
       <Header islogged={islogged} />
           <Switch>
+          <Route exact path="/" component={LandingPage} />
             <Route exact path="/login" component={Login} />
             <Route exact path="/signup" component={Signup} />
-            <Route exact path="/" component={Home} />
+            <Route exact path="/home" component={Home} />
             <Route exact path="/my-edu" component={MyEducations} />
-            <Route exact path="/my-exp" component={MyExperiances} />
             <Route exact path="/my-skills" component={MySkills} />
             <Route exact path="/contact-me" component={ContactMe} />
             <Route component={PageNotFound} />

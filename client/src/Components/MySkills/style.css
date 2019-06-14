@@ -1,0 +1,36 @@
+.skills__header{
+    width: 100%;
+    height: 500px;
+    background:  linear-gradient(rgba(40, 142, 182, 0.7), rgba(10, 63, 112, 0.932));
+    /* url('header.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.skills__text-goal{
+    color: white;
+    align-content: center;
+    margin: 0 auto;
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.skills__text-goal::before{
+    margin-right: 0.6rem;
+    content: open-quote;
+}
+.skills__text-goal::after{
+    margin-right: 0.6rem;
+    content: close-quote;
+}
+.skills__word-my-skills{
+    color: #0F9CAF;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+}
