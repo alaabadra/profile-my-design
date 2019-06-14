@@ -1,11 +1,46 @@
 import React ,{Component} from 'react';
-import UnderConstruction from '../UnderConstruction';
+import { Container } from 'react-bootstrap';
 
-export default function Home() {
-    return(
+import UnderConstruction from '../UnderConstruction';
+import AboutMeCards from './AboutMeCards';
+import aboutMeFile from './../utils/aboutMeFile.js'
+export default class  Home extends Component{
+
+    state={
+    myInfo:[]
+    }
+    componentDidMount() {
+        this.setState({ myInfo: aboutMeFile });
+      }
+    render(){
+       const {myInfo} = this.state; 
+     return(
+
         <>
-        <h1>home</h1>
-        <UnderConstruction/>
-        </>
-    )
+
+        <Container className="page__container">
+          <div className="my-applications__title">
+            <span>About Me</span>
+          </div>
+          {myInfo
+            ? myInfo.map(item => {
+              console.log(item);
+              
+                
+                return (
+                    <AboutMeCards
+                      hover
+                      myInfo={item}
+                      key={item.id}
+                      status={item.status}
+                    />
+                  );
+              })
+            : null}
+        </Container>
+
+          </>
+    )   
+    }
+    
 }

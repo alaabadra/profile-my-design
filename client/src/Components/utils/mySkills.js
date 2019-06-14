@@ -2,7 +2,7 @@ export default [
     {
       id: 1,
       imageUrl:
-        '',
+        'https://content-static.upwork.com/uploads/2014/10/01073427/profilephoto1.jpg',
       nameSkill: 'web Developer',
       language: 'nodeJS , express',
       text:
@@ -11,7 +11,7 @@ export default [
     {
         id: 1,
         imageUrl:
-          '',
+          'https://content-static.upwork.com/uploads/2014/10/01073427/profilephoto1.jpg',
           nameSkill: 'web Designer',
         language: 'REACT , Bootstrap , php ,html ,css',
         text:
@@ -20,7 +20,7 @@ export default [
       {
         id: 1,
         imageUrl:
-          '',
+          'https://content-static.upwork.com/uploads/2014/10/01073427/profilephoto1.jpg',
           nameSkill: 'python',
           language: 'AI and Data science',
         text:
@@ -29,7 +29,7 @@ export default [
       {
         id: 1,
         imageUrl:
-          '',
+          'https://content-static.upwork.com/uploads/2014/10/01073427/profilephoto1.jpg',
           nameSkill: 'Andriod',
           language: 'in webtech  ',
         text:
@@ -38,7 +38,7 @@ export default [
       {
         id: 1,
         imageUrl:
-          '',
+          'https://content-static.upwork.com/uploads/2014/10/01073427/profilephoto1.jpg',
           nameSkill: 'Electronics fields',
           language: 'in UNRWA',
         text:
@@ -47,7 +47,7 @@ export default [
       {
         id: 1,
         imageUrl:
-          '',
+          'https://content-static.upwork.com/uploads/2014/10/01073427/profilephoto1.jpg',
           nameSkill: 'telecommunication field',
           language: 'in ministary IT',
         text:
